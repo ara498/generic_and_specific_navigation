@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1> sql queries</h1>
+        {% for i in name %}
+        <h1>{{i}}</h1>
+        {% endfor %}
+
+        <h1>number</h1>
+        {% for i in number %}
+        <h2>{{i}}</h2>
+        {% endfor %}
+        <a href="{% url 'python'%}">Go to python page</a>
+    </center>
+</body>
+</html>
